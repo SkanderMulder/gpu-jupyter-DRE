@@ -19,6 +19,36 @@ RUN fix-permissions $CONDA_DIR
 # RUN jupyter labextension install @jupyterlab/github
 # RUN pip install jupyterlab-git
 RUN pip install jupyterlab-drawio
+RUN pip installsubprocess
+RUN pip installos
+RUN pip installre
+RUN pip installwarnings
+RUN pip installseaborn
+RUN pip installtorchaudio
+RUN pip installpandas
+RUN pip installrandom
+RUN pip installxgboost
+RUN pip installpytz
+RUN pip installdatetime
+RUN pip installscipy
+RUN pip installjson
+RUN pip installmatplotlib
+RUN pip installcsv
+RUN pip installpickle
+RUN pip installstatistics
+RUN pip installfnmatch
+RUN pip installsklearn
+RUN pip installtorch
+RUN pip installnumpy
+RUN pip installtime
+RUN pip installio
+RUN pip installtorchvision
+RUN pip installsys
+RUN pip installstring
+RUN pip installmath
+RUN pip installtensorflow
+RUN pip installrequests
+RUN pip installimageio
 RUN jupyter nbextension enable --py --sys-prefix ipyleaflet
 RUN jupyter labextension install jupyterlab-plotly
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget
