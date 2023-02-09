@@ -287,6 +287,36 @@ RUN mamba install --quiet --yes \
     'sqlalchemy' \
     'statsmodels' \
     'sympy' \
+    'subprocess'\
+    'os'\
+    're'\
+    'warnings'\
+    'seaborn'\
+    'torchaudio'\
+    'pandas'\
+    'random'\
+    'xgboost'\
+    'pytz'\
+    'datetime'\
+    'scipy'\
+    'json'\
+    'matplotlib'\
+    'csv'\
+    'pickle'\
+    'statistics'\
+    'fnmatch'\
+    'sklearn'\
+    'torch'\
+    'numpy'\
+    'time'\
+    'io'\
+    'torchvision'\
+    'sys'\
+    'string'\
+    'math'\
+    'tensorflow'\
+    'requests'\
+    'imageio'\
     'widgetsnbextension'\
     'xlrd' && \
     mamba clean --all -f -y && \
